@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import { Button } from './Contacts.styled.js';
 
-export { Button } from './Contacts.styled.js';
-
 export const Contacts = ({ contacts, onDeleteContact }) => {
   return (
     <ul>
